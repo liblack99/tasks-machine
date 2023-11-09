@@ -30,7 +30,7 @@ function AppUI() {
         <TaskList>
           {loading && <Loading />}
           {error && <Error />}
-          {searchedTasks.length === 0 && <Empty />}
+          {!loading && searchedTasks.length === 0 && <Empty />}
           {searchedTasks &&
             searchedTasks.map((task) => (
               <TaskItem
