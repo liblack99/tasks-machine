@@ -1,0 +1,15 @@
+h1 {
+  font-size: 28px;
+  text-align: start;
+  padding: 48px 48px 24px 48px;
+  font-family: system-ui;
+  margin: 0;
+  color: aliceblue;
+}
+h1 span {
+  font-size: 48px;
+}
+.Result {
+  color: black;
+  font-size: 28px;
+}

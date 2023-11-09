@@ -1,0 +1,38 @@
+.Container--loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 16px;
+  list-style: none;
+  width: 80%;
+  height: auto;
+  padding: 0;
+}
+.loading {
+  background-color: #eeeaf2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 5px 50px rgba(32, 35, 41, 0.15);
+  width: 398px;
+  height: 56px;
+  border-radius: 10px;
+  animation: loading-skeleton infinite 1.5s;
+}
+.loading:nth-child(2) {
+  animation-delay: 0.2s;
+}
+.loading:nth-child(3) {
+  animation-delay: 0.4s;
+}
+
+@keyframes loading-skeleton {
+  0%,
+  100% {
+    opacity: 100%;
+  }
+  50% {
+    opacity: 0%;
+  }
+}
