@@ -6,7 +6,7 @@ import { IconSearch } from "@tabler/icons-react";
 function TaskSearch() {
   const { searchValue, setSearchValue } = useContext(TasksContext);
   return (
-    <label>
+    <label className="Label__search">
       <input
         type="text"
         placeholder="Encuentra tus tareas"

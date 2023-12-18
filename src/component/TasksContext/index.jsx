@@ -48,6 +48,7 @@ function TaskProvider({ children }) {
   return (
     <TasksContext.Provider
       value={{
+        tasks,
         loading,
         error,
         completedTasks,
@@ -60,8 +61,7 @@ function TaskProvider({ children }) {
         openModal,
         setOpenModal,
         addTask,
-      }}
-    >
+      }}>
       {children}
     </TasksContext.Provider>
   );

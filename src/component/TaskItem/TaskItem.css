@@ -3,7 +3,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  box-shadow: 0px 5px 50px rgba(32, 35, 41, 0.15);
+  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.2);
   width: 100%;
   height: auto;
   border-radius: 10px;
@@ -37,7 +37,7 @@
 }
 
 .Icon-check--active {
-  color: #4caf50;
+  color: #311535;
 }
 
 .Icon-delete {

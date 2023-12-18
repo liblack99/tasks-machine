@@ -9,7 +9,7 @@ import { Error } from "../Error";
 import { TasksContext } from "../TasksContext";
 import { Modal } from "../Modal";
 import { TaskForm } from "../TaskForm";
-import { ContainerApp } from "../ContainerApp";
+import "./App.css";
 import { Empty } from "../Empty";
 
 function AppUI() {
@@ -23,28 +23,30 @@ function AppUI() {
   } = useContext(TasksContext);
   return (
     <>
-      <ContainerApp>
-        <TaskCount />
-        <TaskSearch />
+      <div className="App__background"></div>
+      <div className="App__container">
+        <div className="App__task">
+          <TaskCount />
+          <TaskSearch />
 
-        <TaskList>
-          {loading && <Loading />}
-          {error && <Error />}
-          {!loading && searchedTasks.length === 0 && <Empty />}
-          {searchedTasks &&
-            searchedTasks.map((task) => (
-              <TaskItem
-                text={task.text}
-                key={task.text}
-                completed={task.completed}
-                onComplete={() => taskCompleted(task.text)}
-                onDelete={() => deleteTask(task.text)}
-              />
-            ))}
-        </TaskList>
-        <CreateTaskBtn />
-      </ContainerApp>
-
+          <TaskList>
+            {loading && <Loading />}
+            {error && <Error />}
+            {!loading && searchedTasks.length === 0 && <Empty />}
+            {searchedTasks &&
+              searchedTasks.map((task) => (
+                <TaskItem
+                  text={task.text}
+                  key={task.text}
+                  completed={task.completed}
+                  onComplete={() => taskCompleted(task.text)}
+                  onDelete={() => deleteTask(task.text)}
+                />
+              ))}
+          </TaskList>
+          <CreateTaskBtn />
+        </div>
+      </div>
       {openModal && (
         <Modal>
           <TaskForm />

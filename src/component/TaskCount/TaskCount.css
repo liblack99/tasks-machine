@@ -1,10 +1,10 @@
 h1 {
-  font-size: 28px;
+  font-size: 24px;
   text-align: start;
   padding: 48px 48px 24px 48px;
   font-family: system-ui;
   margin: 0;
-  color: aliceblue;
+  color: #311535;
 }
 h1 span {
   font-size: 48px;

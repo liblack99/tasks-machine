@@ -10,7 +10,7 @@
   padding: 0;
 }
 .loading {
-  background-color: #eeeaf2;
+  background-color: #dcdcdc;
   display: flex;
   justify-content: center;
   align-items: center;

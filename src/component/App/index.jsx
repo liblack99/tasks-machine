@@ -1,5 +1,5 @@
 import { AppUI } from "./AppUi";
-import "./App.css";
+
 import { TaskProvider } from "../TasksContext";
 
 function App() {
