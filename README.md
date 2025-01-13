@@ -4,7 +4,7 @@ Esta es una aplicación de lista de tareas desarrollada con React. Permite a los
 
 ## Demo
 
-Puedes probar la aplicación en vivo [aquí](#) (https://liblack99.github.io/tasks-machine/).
+Puedes probar la aplicación en vivo [aquí](https://liblack99.github.io/tasks-machine/).
 
 ## Capturas de pantalla
 
