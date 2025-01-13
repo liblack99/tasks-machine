@@ -8,7 +8,7 @@ Puedes probar la aplicación en vivo [aquí](https://liblack99.github.io/tasks-m
 
 ## Capturas de pantalla
 
-![task machine](https://i.imgur.com/erOLqJa.png)
+![task machine](https://firebasestorage.googleapis.com/v0/b/pelagic-earth-407809.appspot.com/o/proyectos%2FtaskClassic.webp?alt=media&token=c99fdb05-057d-4397-be30-c7188b24ac5a)
 
 ## Características
 
